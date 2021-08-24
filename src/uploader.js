@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8000';
+const API_URL = 'http://todo.smykova-n.ru:8000';
 
 function fetchLists() {
     return fetch(`${API_URL}/api/lists`)
