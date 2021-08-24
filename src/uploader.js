@@ -43,7 +43,7 @@ function updateItem(id, is_completed) {
     formData.append('_method', 'PUT')
     formData.append('is_completed', (+is_completed).toString())
     return fetch(
-        `http://localhost:8000/api/items/${id}`,
+        `${API_URL}/api/items/${id}`,
         {method: 'POST', body: formData}
     ).then(r => r.json())
 }
