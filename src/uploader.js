@@ -1,4 +1,4 @@
-const API_URL = 'http://todo.smykova-n.ru';
+const API_URL = 'https://todo.smykova-n.ru';
 
 function fetchLists() {
     return fetch(`${API_URL}/api/lists`)
